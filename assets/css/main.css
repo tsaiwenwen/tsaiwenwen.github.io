@@ -62,7 +62,7 @@ h6 {
 # Sections & Section Header
 --------------------------------------------------------------*/
 section {
-  padding: 6rem 0;
+  padding: 3rem 0;
   overflow: hidden;
 }
 
@@ -116,12 +116,12 @@ section {
     content: '';
     display: flex;
     position: absolute;
-    width: 10rem;
+    width: 20rem;
     height: 100%;
     top: 0;
     background: #2e8e870d;
     padding: 3rem 8rem 3rem 0;
-    right: -10rem;
+    right: -20rem;
   }
 }
 
@@ -142,6 +142,40 @@ section {
   margin-bottom: 0;
   color: #6f6f6f;
 }
+
+
+
+
+.experience{
+
+}
+
+.experience h3{
+  color: var(--color-primary);
+  font-size: 1.3rem;
+  font-family: var(--font-secondary);
+  line-height: 2rem;
+}
+
+.experience p span{
+  color: var(--color-primary);
+}
+
+.sitetitle{
+  position: relative;
+}
+
+.sitetitle::after{
+  content: '';
+  position: absolute;
+  width: 45%;
+  height: 1px;
+  background-color: var(--color-default);
+  opacity: .5;;
+  top: 50%;
+  right: 0rem;
+}
+
 
 /*--------------------------------------------------------------
 # Breadcrumbs
@@ -352,7 +386,7 @@ section {
   top: 0;
   right: 0;
   left: 0;
-  height: 8rem;
+  height: 6rem;
   background: rgba(255, 255, 255, 0.9);
 }
 
@@ -639,7 +673,7 @@ section {
 
 /*--------------------------------------------------------------
 # About Us Section
---------------------------------------------------------------*/
+--------------------------------------------------------------
 .about h3 {
   font-weight: 700;
   font-size: 28px;
@@ -786,7 +820,7 @@ section {
     transform: scale(1, 1);
     opacity: 0;
   }
-}
+}*/
 
 /*--------------------------------------------------------------
 # Clients Section
@@ -2598,113 +2632,12 @@ section {
 # Footer
 --------------------------------------------------------------*/
 .footer {
-  font-size: 14px;
   background-color: var(--color-primary);
-  padding: 50px 0;
   color: white;
 }
 
-.footer .footer-info .logo {
-  line-height: 0;
-  margin-bottom: 25px;
-}
-
-.footer .footer-info .logo img {
-  max-height: 40px;
-  margin-right: 6px;
-}
-
-.footer .footer-info .logo span {
-  font-size: 30px;
-  font-weight: 700;
-  letter-spacing: 1px;
-  color: #fff;
-  font-family: var(--font-primary);
-}
-
-.footer .footer-info p {
-  font-size: 14px;
-  font-family: var(--font-primary);
-}
-
-.footer .social-links a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  font-size: 16px;
-  color: rgba(255, 255, 255, 0.7);
-  margin-right: 10px;
-  transition: 0.3s;
-}
-
-.footer .social-links a:hover {
-  color: #fff;
-  border-color: #fff;
-}
-
 .footer h4 {
-  font-size: 16px;
-  font-weight: bold;
-  position: relative;
-  padding-bottom: 12px;
+  font-size: 1rem;
+  font-weight: 400;
 }
 
-.footer .footer-links {
-  margin-bottom: 30px;
-}
-
-.footer .footer-links ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.footer .footer-links ul i {
-  padding-right: 2px;
-  color: rgba(0, 131, 116, 0.8);
-  font-size: 12px;
-  line-height: 0;
-}
-
-.footer .footer-links ul li {
-  padding: 10px 0;
-  display: flex;
-  align-items: center;
-}
-
-.footer .footer-links ul li:first-child {
-  padding-top: 0;
-}
-
-.footer .footer-links ul a {
-  color: rgba(255, 255, 255, 0.7);
-  transition: 0.3s;
-  display: inline-block;
-  line-height: 1;
-}
-
-.footer .footer-links ul a:hover {
-  color: #fff;
-}
-
-.footer .footer-contact p {
-  line-height: 26px;
-}
-
-.footer .copyright {
-  text-align: center;
-}
-
-.footer .credits {
-  padding-top: 4px;
-  text-align: center;
-  font-size: 13px;
-}
-
-.footer .credits a {
-  color: #fff;
-}
